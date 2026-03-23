@@ -21,7 +21,7 @@ if st.button("Analiz Et"):
             try:
                 # Yapay zeka modelini kurma
                 genai.configure(api_key=api_key)
-                model = genai.GenerativeModel('gemini-pro') 
+                model = genai.GenerativeModel('gemini-1.5-flash') 
                 
                 # Yapay zekaya vereceğimiz talimat
                 prompt = f"""
